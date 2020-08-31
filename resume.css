@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 20px;
+    text-shadow: white;
+}
+.nav {
+    text-align: center;
+    color: red;
+    border-top: 40px;
+    border-bottom: 40px;
+}
+body {
+    background-color: gray;
+}
