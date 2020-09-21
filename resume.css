@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url("images/background.jpg");
+    font-family: 'Courier New', Courier, monospace;
+}
+
 header {
     font-size: 40px;
     font-style: italic;
@@ -17,17 +22,111 @@ header > h1 {
     font-weight: bold;
 }
 
-body {
-    background-image: "images/bg.jpg";
+h3 {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+table.projects {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+td {
+    padding: 50px;
+}
+
+.nav {
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: #DFDD9B;
+}
+
+#resume, #portfolio {
+    font-size: 35px;
+}
+
+a {
+    color: #DFDD9B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
 }
 
 .sections {
-    background: #DFDD9B;
     box-shadow: 0px 5px 0px 5px;
     text-align: center;
     margin: 20px;
 }
 
 .about {
+    background: #DFDD9B;
     font-size: 30px;
+    margin: 50px;
+    padding: 45px;
+    border: solid 8px;
+    box-shadow: 5px 10px 18px #888888;
 }
+
+.education {
+    background: #DFDD9B;
+    font-size: 30px;
+    margin: 50px;
+    padding: 45px;
+    border: solid 8px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.experience {
+    background: #DFDD9B;
+    font-size: 30px;
+    margin: 50px;
+    padding: 45px;
+    border: solid 8px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.skills {
+    background: #DFDD9B;
+    font-size: 30px;
+    margin: 50px;
+    padding: 45px;
+    border: solid 8px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.references {
+    background: #DFDD9B;
+    font-size: 30px;
+    margin: 50px;
+    padding: 45px;
+    border: solid 8px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.contact {
+    background: #DFDD9B;
+    font-size: 30px;
+    margin: 50px;
+    padding: 45px;
+    border: solid 8px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#contact {
+    color: black;
+}
+
